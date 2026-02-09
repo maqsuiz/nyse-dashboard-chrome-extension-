@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=400">
+  <title>NYSE News Dashboard</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <div class="header">
+      <h1>NYSE News Center</h1>
+      <p class="subtitle">Wall Street & US Markets</p>
+    </div>
+
+    <!-- Ticker Panel -->
+    <div id="ticker-panel" class="ticker-container">
+      <div class="loading">Loading market data...</div>
+    </div>
+
+    <!-- Controls -->
+    <div class="controls">
+      <div class="time-filters">
+        <button class="filter-btn active" data-hours="1">1H</button>
+        <button class="filter-btn" data-hours="4">4H</button>
+        <button class="filter-btn" data-hours="12">12H</button>
+        <button class="filter-btn" data-hours="24">24H</button>
+      </div>
+      <button id="refresh-btn" class="refresh-btn">Refresh</button>
+    </div>
+
+    <!-- Insight Panel -->
+    <div id="insight-panel" class="insight-panel">
+      <div class="insight-title">BIGGEST MOVE (30 Days)</div>
+      <div id="insight-content" class="loading">Analyzing...</div>
+    </div>
+
+    <!-- News List -->
+    <div id="news-list" class="news-list">
+      <div class="loading">Fetching news...</div>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
