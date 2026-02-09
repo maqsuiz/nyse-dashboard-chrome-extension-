@@ -14,6 +14,7 @@ Real-time stock market news dashboard with two versions:
 - Monthly market movement insight
 
 ---
+<img width="434" height="598" alt="image" src="https://github.com/user-attachments/assets/1497f26d-644e-4da8-bc7d-c952e02da417" />
 
 ## Streamlit Web App
 
@@ -59,4 +60,5 @@ nyse-news-dashboard/
 ## License
 
 MIT License
+
 
